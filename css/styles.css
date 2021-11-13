@@ -99,8 +99,8 @@ body {
   background-color: #2f303a;
 }
 .hero-back {
+  max-width: 1600px;
   background-color: var(--background-color);
-  width: 1600px;
 }
 .button:hover,
 .button:focus {
@@ -209,7 +209,6 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
-  text-decoration: underline;
   color: var(--accent-color);
 }
 .footer-link {
@@ -222,7 +221,6 @@ body {
 }
 .footer-link:focus,
 .footer-link:hover {
-  text-decoration: underline;
   color: var(--accent-color);
 }
 /* ---------------PAGE PORTFOLIO-------------- */
@@ -250,10 +248,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--second-title-color);
   text-decoration: none;
-}
-.portfolio-item-text:hover {
-  text-decoration: underline;
-  color: var(--accent-color);
 }
 .after-portfolio-item-text {
   font-family: inherit;
